@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		3DFA7B352252DF2400C132BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA7B332252DF2400C132BF /* Main.storyboard */; };
 		3DFA7B372252DF2500C132BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA7B362252DF2500C132BF /* Assets.xcassets */; };
 		3DFA7B3A2252DF2500C132BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA7B382252DF2500C132BF /* LaunchScreen.storyboard */; };
+		3DFA7B422252E4F300C132BF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA7B412252E4F300C132BF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3DFA7B362252DF2500C132BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFA7B392252DF2500C132BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DFA7B3B2252DF2500C132BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFA7B412252E4F300C132BF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		3DFA7B232252DF2400C132BF = {
 			isa = PBXGroup;
 			children = (
+				3DFA7B412252E4F300C132BF /* .gitignore */,
 				3DFA7B2E2252DF2400C132BF /* ComplexWidth */,
 				3DFA7B2D2252DF2400C132BF /* Products */,
 			);
@@ -100,7 +103,7 @@
 				};
 			};
 			buildConfigurationList = 3DFA7B272252DF2400C132BF /* Build configuration list for PBXProject "ComplexWidth" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFA7B422252E4F300C132BF /* .gitignore in Resources */,
 				3DFA7B3A2252DF2500C132BF /* LaunchScreen.storyboard in Resources */,
 				3DFA7B372252DF2500C132BF /* Assets.xcassets in Resources */,
 				3DFA7B352252DF2400C132BF /* Main.storyboard in Resources */,
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
 				INFOPLIST_FILE = ComplexWidth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
 				INFOPLIST_FILE = ComplexWidth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
