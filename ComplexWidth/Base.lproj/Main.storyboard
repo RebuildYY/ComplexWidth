@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="portrait">
+    <device id="retina4_0" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,15 +15,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ComplexWidth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dp3-GI-u72" customClass="Red">
-                                <rect key="frame" x="268" y="120" width="480" height="884"/>
+                                <rect key="frame" x="201.5" y="100" width="346.5" height="200"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlueRed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYg-R2-emE">
-                                <rect key="frame" x="320" y="9" width="128.5" height="41"/>
+                                <rect key="frame" x="252.5" y="49.5" width="63.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,7 +32,7 @@
                                 </variation>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JI0-ug-r8N" customClass="Blue">
-                                <rect key="frame" x="20" y="120" width="240" height="884"/>
+                                <rect key="frame" x="20" y="100" width="173.5" height="200"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RedBlue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nuj-cM-4XL">
@@ -46,7 +46,9 @@
                         <constraints>
                             <constraint firstItem="Dp3-GI-u72" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="0ul-aq-Lir"/>
                             <constraint firstItem="Nuj-cM-4XL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2bc-zK-ZVd"/>
-                            <constraint firstItem="Dp3-GI-u72" firstAttribute="top" secondItem="nYg-R2-emE" secondAttribute="bottom" constant="70" id="6g6-tQ-JuM"/>
+                            <constraint firstItem="Dp3-GI-u72" firstAttribute="top" secondItem="nYg-R2-emE" secondAttribute="bottom" constant="70" id="6g6-tQ-JuM">
+                                <variation key="heightClass=compact" constant="30"/>
+                            </constraint>
                             <constraint firstItem="JI0-ug-r8N" firstAttribute="width" secondItem="Dp3-GI-u72" secondAttribute="width" multiplier="0.5" priority="750" id="CHs-hd-xOg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JI0-ug-r8N" secondAttribute="bottom" constant="20" id="GcE-li-312"/>
                             <constraint firstItem="Dp3-GI-u72" firstAttribute="leading" secondItem="JI0-ug-r8N" secondAttribute="trailing" constant="8" id="IwY-VW-Cqk"/>
